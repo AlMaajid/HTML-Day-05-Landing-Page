@@ -1,0 +1,416 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+.first-container{
+  width: 100%;
+  background-color: #1B1C1D;
+}
+
+.nav-bar{
+  display: flex;
+  list-style-type: none;
+  margin: 0 3rem;
+}
+
+.nav-list{
+  margin-top: 1.25rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+  color: whitesmoke;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:link,a:visited{
+  color: white;
+}
+
+a:hover,a:focus{
+  color: dodgerblue;
+}
+
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+.name{
+  font-size: 2rem;
+  font-weight: normal;
+  color: rgb(240,240,240);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.description{
+  font-size: 1.25rem;
+  color: rgb(240,240,240);
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.second-container{
+  margin: 2rem 4rem;
+}
+
+.second-title{
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.content{
+  /* width: 100%; */
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.image{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+  margin-top: 4rem;
+}
+
+.kazi-image{
+  width: 15rem;
+  height: 15rem;
+  object-fit: contain;
+}
+
+.more-details{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.button{
+  background-color: black;
+  color: whitesmoke;
+  border: none;
+  padding: 1rem 0.7rem;
+  font-size: 1rem;
+  letter-spacing: 0.01rem;
+  font-weight: bold;
+  margin-right: 01rem;
+  cursor: pointer;
+  margin-bottom: 4rem;
+}
+
+.wiki{
+  background-color: rgb(180,180,180);
+  color: black;
+}
+
+.videos{
+  background-color:#FF0000 ;
+}
+
+.books{
+  background-color:#F2711C ;
+}
+
+.fa-brands{
+  margin-right: 0.4rem;
+}
+
+.third-container{
+  width: 100%;
+  background-color: #1B1C1D;
+  text-align: center;
+  color: whitesmoke;
+  font-size: 1rem;
+  padding: 4rem  2rem;
+  margin-bottom: 4rem;
+}
+
+h3{
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  letter-spacing: 0.5rem;
+}
+
+h3:before,h3:after{
+  content: '';
+  flex: 1 1;
+  border-bottom: 0.2rem solid gray;
+  margin: auto;
+}
+
+.boxes{
+  display: grid;
+  grid-template-columns: 1fr ;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  margin-bottom: 6rem;
+}
+
+.box{
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid gray;
+  width: 80%;
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+}
+
+.award-title{
+  font-size: 1.3rem;
+}
+
+.year{
+  font-size: 1rem;
+  color: gray;
+  margin-top: 1rem;
+}
+
+.about-award{
+  font-size: 1.2rem;
+  color: gray;
+  margin-top: 1.5rem;
+}
+
+.fivth-container{
+  display: flex;
+  margin-left: 2rem;
+}
+
+.fivth-title{
+  width: 50%;
+  font-size: 1rem;
+  letter-spacing: .2rem;
+  margin-right: 0.4rem;
+  margin-bottom: 2rem;
+}
+
+.lists{
+  display: flex;
+  margin-left: 3rem;
+  margin-bottom: 4rem;
+}
+
+.list{
+  /* width: 15rem; */
+  font-size: 1rem;
+  margin-right: 2rem;
+  line-height: 2rem;
+  /* padding: 0 2rem; */
+}
+
+.second-list{
+ padding-left: 2rem;
+}
+
+.sixth-container{
+  display: flex;
+  justify-content: center;
+  background-color: #1B1C1D;
+  color: white;
+}
+
+.disclaimer{
+  margin-left: 2rem;
+}
+
+h5{
+  width: 7rem;
+  margin-top: 1rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.desc{
+  color: gray;
+  font-size: 1rem;
+  font-weight: normal;
+  margin-right: 0.5rem;
+  margin-bottom: 3rem;
+}
+.color{
+  color: blue;
+}
+
+@media  screen 
+  and (min-width: 768px) 
+  and (max-width: 1023px) 
+ {
+    .nav-list{
+      font-size: 1.5rem;
+    }
+    .name{
+      font-size: 3rem;
+    }
+    .description{
+      font-size: 2rem;
+    }
+    .second-container{
+      display: flex;
+    }
+
+    .about-author{
+      margin-top: 4rem;
+    }
+    .second-title{
+      font-size: 2rem;
+    }
+    .content{
+      width: 90%;
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+    .image{
+      width:40%;
+      justify-content: center;
+      align-items: center;
+    }
+    .kazi-image{
+      width: 30rem;
+      height: 30rem;
+      object-fit: contain;
+    }
+
+    .button{
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+    }
+
+    .third-container{
+      font-size: 1.5rem;
+    }
+    .award{
+      font-size: 2rem
+    }
+    .boxes{
+      grid-template-columns: 1fr 1fr;
+    }
+    .year{
+      font-size: 1.5rem;
+    }
+    .about-award{
+      line-height: 2rem;
+      font-size: 1.5rem;
+    }
+    .fivth-title{
+      font-size: 1.5rem;
+    }
+
+    .list{
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+    .sixth-container{
+      height: 15rem;
+    }
+    .disclaimer{
+      margin-left: 4rem
+    }
+    h5{
+      font-size: 1.5rem;
+      width: 20rem;
+    }
+    .desc{
+      font-size: 1.25rem;
+    }
+}
+
+@media screen 
+  and (min-width: 1024px) 
+  and (max-width: 1540px) 
+ { 
+    .nav-list{
+      font-size: 1.9rem;
+    }
+    .name{
+      font-size: 4rem;
+    }
+    .description{
+      font-size: 3rem;
+      margin-bottom: 7rem
+    }
+    .second-container{
+      display: flex;
+    }
+    .about-author{
+      margin-top: 6rem;
+    }
+    .second-title{
+      font-size: 2.25rem;
+    }
+    .content{
+      width: 70%;
+      font-size: 2rem;
+      line-height: 4rem;
+      margin-bottom: 3rem;
+    }
+    .image{
+      width: 60%;
+      margin-right: 10rem;
+      align-items: center;
+    }
+    .kazi-image{
+      width: 25rem;
+      height: 32rem;
+    }
+    .button{
+      padding: 1.5rem 3rem;
+      font-size: 2rem;
+      margin-right: 5rem;
+    }
+    .third-container{
+      font-size: 2.5rem;
+      padding: 8rem 0rem;
+    }
+    .award{
+      font-size: 2.5rem;
+    }
+    .boxes{
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .box{
+      width: 93%;
+    }
+    .award-title {
+      font-size: 1.5rem;
+      line-height: 2.5rem;
+  }
+  .year{
+    font-size: 1.5rem;
+  }
+  .about-award{
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .fivth-title{
+    font-size: 2.25rem;
+  }
+  .list{
+    font-size: 2rem;
+    line-height: 5rem;
+  }
+  .disclaimer {
+    margin-left: 4rem;
+}
+h5 {
+  width: 16rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.desc {
+  font-size: 1.8rem;
+}
+}
